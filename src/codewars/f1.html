@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Codewars</title>
+</head>
+<body>
+Hello Codewars!
+<script>
+    //return Odd' or 'Even'
+    function even_or_odd(number) {
+        return number % 2 ? 'Odd' : 'Even'
+    }
+
+    //------------------------------------------
+    //You get an array of numbers, return the sum of all of the positives ones.
+    function positiveSum(arr) {
+        let x = 0
+        for (let i=0; i<arr.length; i++){
+            if (arr[i] > 0) { x = x + arr[i]}
+        }
+        return x
+    }
+
+    //---------------------------------------------
+    //Very simple, given a number, find its opposite.
+    function opposite(number) {
+        return -number
+    }
+
+    function makeNegative(num) {
+        return num > 0 ? -num : num
+    }
+
+
+</script>
+</body>
+</html>
