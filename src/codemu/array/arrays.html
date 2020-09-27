@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>arrays</title>
+</head>
+<body>
+<script>
+    //1.Выведите с помощью цикла столбец чисел от 1 до 100.
+    for (let i = 1; i<=100; i++){
+        // console.log(i)
+    }
+    //2. Выведите с помощью цикла столбец чисел от 100 до 1.
+    for (let y = 100; y>=1; y--) {
+        // console.log(y)
+    }
+    //3. Выведите с помощью цикла столбец четных чисел от 1 до 100.
+    for (let x = 1; x <= 100; x++){
+        if (x%2 === 0){
+            // console.log(x)
+        }
+    }
+    //4.Заполните массив 10-ю иксами с помощью цикла.
+    let arr = []
+    for (let q=0; q<10; q++) {
+        arr.push('x')
+    }
+    //console.log(arr)
+    //5.Заполните массив числами от 1 до 10 с помощью цикла.
+    let arr1 = []
+    for (let w=1; w<=10; w++) {
+        arr1.push(w)
+    }
+    //console.log(arr1)
+    //6.Заполните массив 10-ю случайными числами (дробями) от 0 до 1 с помощью цикла.
+    // Дроби округляйте до двух знаков в дробной части.
+    let arr2 = []
+    for (let e=0; e<10; e++) {
+        arr2.push(Math.random().toFixed(2))
+    }
+    //console.log(arr2)
+</script>
+</body>
+</html>

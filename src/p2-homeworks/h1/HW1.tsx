@@ -42,8 +42,7 @@ export const messageData: Array<MessageType> = [
 function HW1() {
     return (
         <div>
-            <hr/>
-            <span className={s.homework}>homeworks 1</span>
+            <span className={s.homework}>Homework №1</span>
 
             <Message
                 avatar={messageData[0].avatar}
@@ -63,7 +62,9 @@ function HW1() {
                                 name={messageData[1].name}
                                 message={messageData[3].message}
                                 time={messageData[3].time}/>
+
         </div>
+
     );
 }
 

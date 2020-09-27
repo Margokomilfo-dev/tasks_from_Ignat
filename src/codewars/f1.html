@@ -16,8 +16,10 @@ Hello Codewars!
     //You get an array of numbers, return the sum of all of the positives ones.
     function positiveSum(arr) {
         let x = 0
-        for (let i=0; i<arr.length; i++){
-            if (arr[i] > 0) { x = x + arr[i]}
+        for (let i = 0; i < arr.length; i++) {
+            if (arr[i] > 0) {
+                x = x + arr[i]
+            }
         }
         return x
     }
@@ -28,11 +30,50 @@ Hello Codewars!
         return -number
     }
 
+    //----------------------------------
     function makeNegative(num) {
         return num > 0 ? -num : num
     }
 
+    //It's pretty straightforward. Your goal is to create a function
+    // that removes the first and last characters of a string.
+    // You're given one parameter, the original string.
+    // You don't have to worry with strings with less than two characters.
 
+    function removeChar(str) {
+        //1
+        // let arrayStr = str.split('')
+        // arrayStr.splice(0, 1);
+        // arrayStr.splice(arrayStr.length - 1, 1);
+        // return arrayStr.join('')
+        //2
+        // let arrayStr = str.split('')
+        // let last = arrayStr.length
+        // return arrayStr.slice(1, last - 1).join('')
+        //3
+        // let arrayStr = str.split('')
+        // let last = arrayStr.length
+        // let result0 = arrayStr.slice(1, last - 1)
+        // let result1 = result0.join('')
+        // return result1
+        //4
+        //return str.slice(1, -1)
+        //5
+        return str.slice(1, str.length-1)
+    }
+    //Write a function called repeat_str which repeats the given string
+    // src exactly count times.
+    function repeatStr (n, s) {
+        return s.repeat(n);
+    }
+    //console.log(repeatStr (6, 'hi'))
+
+    //Simple, remove the spaces from the string, then return the resultant string.
+    function noSpace(x){
+        return x.split('').filter(s => s !== ' ').join('')
+    }
+
+    console.log(noSpace('hello world'))
 </script>
 </body>
 </html>
