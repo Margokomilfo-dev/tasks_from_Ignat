@@ -1,5 +1,8 @@
 .blue {
-    border-bottom: 5px solid blue;
+
+}
+.errorText {
+    color: green;
 }
 
 .column {

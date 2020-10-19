@@ -1,7 +1,24 @@
-.checkbox {
+/*<span className={s.checkboxTick}> </span>*/
+.label .checkbox {
+    display: none; /* Hide the default checkbox */
 
 }
 
-.spanClassName {
+.label span.checkboxTick {
+    height: 15px;
+    width: 15px;
+    border: 1px solid grey;
+    display: inline-block;
+    position: relative;
+    color: #11a7a4;
+}
 
+.checkbox:checked + span.checkboxTick:before {
+    content: '\2714';
+    position: absolute;
+    top: -2px;
+    left: 3px;
+}
+.checkboxText {
+    padding: 0 10px;
 }

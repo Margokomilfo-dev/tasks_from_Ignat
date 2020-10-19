@@ -59,21 +59,75 @@ Hello Codewars!
         //4
         //return str.slice(1, -1)
         //5
-        return str.slice(1, str.length-1)
+        return str.slice(1, str.length - 1)
     }
+
     //Write a function called repeat_str which repeats the given string
     // src exactly count times.
-    function repeatStr (n, s) {
+    function repeatStr(n, s) {
         return s.repeat(n);
     }
+
     //console.log(repeatStr (6, 'hi'))
 
     //Simple, remove the spaces from the string, then return the resultant string.
-    function noSpace(x){
+    function noSpace(x) {
         return x.split('').filter(s => s !== ' ').join('')
     }
 
-    console.log(noSpace('hello world'))
+    function boolToWord(bool) {
+        return bool ? 'yes' : 'no'
+    }
+
+    function isDivideBy(number, a, b) {
+        // return Number.isInteger(number / a) &&  Number.isInteger(number / b)
+        return (number % a === 0) && (number % b === 0)
+
+
+    }
+
+    function getCount(str) {
+        var vowelsCount = 0;
+        str.split('').map(l => {
+            if (l == 'a' || l == 'e' || l == 'i' || l == 'o' || l == 'u') {
+                vowelsCount = vowelsCount + 1
+            }
+        })
+        return vowelsCount;
+    }
+
+    function highAndLow(numbers) {
+        let arrString = numbers.split(' ').map(Number)
+        let min = arrString[0];
+        let max = min;
+        for (let i = 1; i <= arrString.length; i++) {
+            if (arrString[i] > max) {
+                max = arrString[i];
+            } else if (arrString[i] < min) {
+                min = arrString[i]
+            }
+        }
+        let result = [max, min].join(' ')
+        return result
+    }
+
+    function findSmallestInt(args) {
+        let min1 = args[0];
+        for (let i = 1; i <= args.length; i++) {
+            if (args[i] < min1) {
+                min1 = args[i]
+            }
+        }
+        return min1
+    }
+
+        console.log(isDivideBy(8, 2, 4))
+        console.log(isDivideBy(5, 1, 5))
+        console.log(isDivideBy(45, 1, 6))
+        console.log(8 % 2)
+        console.log(getCount('avedaaaeghtappppp'))
+        console.log(highAndLow("0 7 -1 1 2 30 0 -3 9 4 5"))
+    console.log(findSmallestInt([34, 15, 88, 2]))
 </script>
 </body>
 </html>
