@@ -13,19 +13,6 @@ export const PATH = {
 function Routes() {
     return (
         <div>
-
-           <span> (props.selected === true)
-            ?   <b>Star</b>
-               : 'Star'
-           </span>
-        {/*    return <span className={`${classes.star} +${classes.starActive}`}>*/}
-        {/*    <b>Star</b>*/}
-        {/*    </span>*/}
-        {/*} else {*/}
-        {/*    return <span className={classes.star}>Star</span>*/}
-        {/*}*/}
-
-
             {/*Switch выбирает первый подходящий роут*/}
             <Switch>
 
