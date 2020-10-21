@@ -1,8 +1,8 @@
 {
+  "homepage": "http://Margokomilfo-dev.github.io/tasks_from_Ignat",
   "name": "simple-react-homeworks",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://margokomilfo-dev.github.io/tasks_from_Ignat",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
