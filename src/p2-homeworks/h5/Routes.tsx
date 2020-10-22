@@ -21,7 +21,7 @@ function Routes() {
             <Switch>
                 {/*в начале мы попадаем на страницу "/" и переходим сразу на страницу PRE_JUNIOR*/}
                 {/*exact нужен чтоб указать полное совподение (что после "/" ничего не будет)*/}
-                <Route path={"/"} exact render={() => <Redirect to={'/PRE_JUNIOR'}/>}/>
+                {/*<Route path={"/"} exact render={() => <Redirect to={'/PRE_JUNIOR'}/>}/>*/}
                 <Route path={"/STUDENT1"} exact render={() => <Student1/>}/>
                 <Route path={"/STUDENT2"} exact render={() => <Student2/>}/>
                 <Route path={'/PRE_JUNIOR'} render={() => <PreJunior/>}/>
