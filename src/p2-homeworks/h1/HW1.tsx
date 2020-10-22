@@ -1,7 +1,7 @@
 import React from "react";
 import Message from "./Message";
 import AlternativeMessage from "./AlternativeMessage";
-import s from './Message.module.css'
+import style from './../../p1-main/m1-ui/u1-app/myApp.module.css'
 
 
 export type MessageType = {
@@ -41,8 +41,8 @@ export const messageData: Array<MessageType> = [
 
 function HW1() {
     return (
-        <div>
-            <span className={s.homework}>Homework №1</span>
+        <div className={style.hw}>
+            <span className={style.hwTitle}>Homework №1</span>
 
             <Message
                 avatar={messageData[0].avatar}
@@ -63,7 +63,9 @@ function HW1() {
                                 message={messageData[3].message}
                                 time={messageData[3].time}/>
 
+
         </div>
+
 
     );
 }

@@ -1,8 +1,8 @@
 import React from "react";
 import Affair from "./Affair";
 import {AffairType, FilterType} from "./HW2";
-import styles from './Affairs.module.css'
-import s from '../../p1-main/m1-ui/u1-app/myApp.module.css'
+import s from './Affairs.module.css'
+import style from '../../p1-main/m1-ui/u1-app/myApp.module.css'
 
 type AffairsPropsType = {
     filteredAffairs: Array<AffairType>
@@ -19,15 +19,15 @@ function Affairs(props: AffairsPropsType) {
     return (
 
         <div>
-            <div className={styles.afTable}>{props.filteredAffairs.map((a: AffairType) => (
+            <div className={s.afTable}>{props.filteredAffairs.map((a: AffairType) => (
                 <Affair key={a._id} affair={a} deleteAffairCallback={props.deleteAffairCallback}/>))}
             </div>
 
-        <div className={styles.buttons}>
-            <button className={s.button} onClick={setAll}>All</button>
-            <button className={s.button} onClick={setHigh}>High</button>
-            <button className={s.button} onClick={setMiddle}>Middle</button>
-            <button className={s.button} onClick={setLow}>Low</button>
+        <div className={s.buttons}>
+            <button className={style.button} onClick={setAll}>All</button>
+            <button className={style.button} onClick={setHigh}>High</button>
+            <button className={style.button} onClick={setMiddle}>Middle</button>
+            <button className={style.button} onClick={setLow}>Low</button>
         </div>
 
         </div>

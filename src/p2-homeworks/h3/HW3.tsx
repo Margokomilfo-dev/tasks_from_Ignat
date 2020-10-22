@@ -3,6 +3,7 @@ import GreetingContainer from "./GreetingContainer";
 import {v1} from "uuid";
 import AlternativeGreeting from "./AlternativeGreeting";
 import s from "./Greeting.module.css"
+import style from './../../p1-main/m1-ui/u1-app/myApp.module.css'
 
 // types
 export type UserType = {
@@ -19,9 +20,9 @@ function HW3() {
         setUsers(newAr)
     }
     return (
-        <div className={s.homework}>
+        <div className={style.hw}>
+            <span className={style.hwTitle}>Homework №3</span>
             <div>
-                <span className={s.hw}>Homework №3</span>
                 <GreetingContainer users={users} addUserCallback={addUserCallback}/>
                 <AlternativeGreeting users={users}/>
             </div>

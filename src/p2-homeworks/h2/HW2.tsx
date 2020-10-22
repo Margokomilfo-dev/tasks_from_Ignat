@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import Affairs from "./Affairs";
-import s from './Affairs.module.css'
+import style from './../../p1-main/m1-ui/u1-app/myApp.module.css'
 
 // types
 export type AffairPriorityType = "high" | "middle" | "low";
@@ -43,8 +43,8 @@ function HW2() {
     const filteredAffairs = filterAffairs(affairs, filter);
 
     return (
-        <div className={s.hw}>
-            <span>Homework №2</span>
+        <div className={style.hw}>
+            <span className={style.hwTitle}>Homework №2</span>
             <Affairs
                 filteredAffairs={filteredAffairs}
                 setFilter={setFilter}
