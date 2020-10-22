@@ -10,6 +10,11 @@ function Header() {
                     <NavLink to={'/PRE_JUNIOR'} className={s.navLink} activeClassName={s.active}> mainPage </NavLink>
                     <NavLink to={'/student1'} className={s.navLink} activeClassName={s.active}> student 1</NavLink>
                     <NavLink to={'/student2'} className={s.navLink} activeClassName={s.active}> students</NavLink>
+                    <NavLink to={'/hw1'} className={s.navLink} activeClassName={s.active}> Homework 1</NavLink>
+                    <NavLink to={'/hw2'} className={s.navLink} activeClassName={s.active}> Homework 2</NavLink>
+                    <NavLink to={'/hw3'} className={s.navLink} activeClassName={s.active}> Homework 3</NavLink>
+                    <NavLink to={'/hw4'} className={s.navLink} activeClassName={s.active}> Homework 4</NavLink>
+                    <NavLink to={'/hw6'} className={s.navLink} activeClassName={s.active}> Homework 6</NavLink>
                 </div>
 
             </div>

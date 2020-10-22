@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import GreetingContainer from "./GreetingContainer";
-import {v1} from "uuid";
+import {v1} from "uuid"
 import AlternativeGreeting from "./AlternativeGreeting";
 import s from "./Greeting.module.css"
 import style from './../../p1-main/m1-ui/u1-app/myApp.module.css'

@@ -4,6 +4,7 @@ import HW2 from "../../h2/HW2"
 import HW3 from "../../h3/HW3"
 import HW4 from "../../h4/HW4"
 import s from './Pages.module.css'
+import HW6 from "../../h6/HW6"
 
 function PreJunior() {
     return (
@@ -12,8 +13,7 @@ function PreJunior() {
             <HW2/>
             <HW3/>
             <HW4/>
-            {/*<HW6/>*/}
-
+            <HW6/>
         </div>
     );
 }

@@ -47,7 +47,6 @@ function HW4() {
                 {/*// onChange тоже должен работать*/}
                 <SuperCheckbox checked={checked} onChange= {testOnChange}  />
             </div>
-            <hr/>
         </div>
     );
 }
