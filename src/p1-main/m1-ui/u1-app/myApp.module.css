@@ -1,13 +1,13 @@
 * {
     box-sizing: border-box;
 }
+
 .hw {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 20px 0;
     border-bottom: 2px solid lightgrey;
-
 }
 
 .hwTitle {
@@ -16,6 +16,7 @@
     color: blue;
     padding-bottom: 20px;
 }
+
 /*---------input--------------------*/
 .input {
     padding: 5px;
@@ -26,14 +27,16 @@
     color: black;
     border-style: groove;
     border-radius: 7px;
-    box-shadow: 0px 0px 11px rgba(13,164,170,.5);
-    text-shadow: 0px 0px 2px rgba(202,211,105,.7);
+    box-shadow: 0px 0px 11px rgba(13, 164, 170, .5);
+    text-shadow: 0px 0px 2px rgba(202, 211, 105, .7);
     font-family: "Courier New";
     margin-bottom: 10px;
 }
+
 .input:focus {
-    outline:none;
+    outline: none;
 }
+
 .errorInput {
     padding: 5px;
     font-size: 22px;
@@ -48,9 +51,11 @@
     font-family: "Courier New";
     margin-bottom: 0px;
 }
+
 .errorInput:focus {
-    outline:none;
+    outline: none;
 }
+
 /*-------error---------------*/
 .error {
     color: red;
@@ -58,33 +63,37 @@
     font-size: 12px;
     margin-bottom: 10px;
 }
+
 /*-----------button---------------*/
 .button {
-    box-shadow:inset 0px 0px 0px 0px #ffffff;
-    background:linear-gradient(to bottom, #feffe0 5%, #dcf5f4 100%);
-    background-color:#feffe0;
-    border-radius:9px;
-    border:1px solid #1a97ad;
-    display:inline-block;
-    cursor:pointer;
+    box-shadow: inset 0px 0px 0px 0px #ffffff;
+    background: linear-gradient(to bottom, #feffe0 5%, #dcf5f4 100%);
+    background-color: #feffe0;
+    border-radius: 9px;
+    border: 1px solid #1a97ad;
+    display: inline-block;
+    cursor: pointer;
     color: #027171;
-    font-family:Arial;
-    font-size:14px;
+    font-family: Arial;
+    font-size: 14px;
     font-weight: 600;
-    padding:7px 15px;
-    text-decoration:none;
-    text-shadow:0px -2px 0px #e0e0e0;
-    outline:none;
+    padding: 7px 15px;
+    text-decoration: none;
+    text-shadow: 0px -2px 0px #e0e0e0;
+    outline: none;
 }
+
 .button:hover {
-    background:linear-gradient(to bottom, #dcf5f4 5%, #feffe0 100%);
-    background-color:#dcf5f4;
+    background: linear-gradient(to bottom, #dcf5f4 5%, #feffe0 100%);
+    background-color: #dcf5f4;
 }
+
 .button:active {
     position: relative;
     top: 1px;
     outline: none;
 }
+
 /*--------------checkbox---------------*/
 
 /*<input type={"checkbox"} className={checkbox}  />*/
@@ -93,6 +102,7 @@
 .checkbox {
     display: none; /* Hide the default checkbox */
 }
+
 span.checkboxTick {
     height: 15px;
     width: 15px;
@@ -101,12 +111,14 @@ span.checkboxTick {
     position: relative;
     color: #11a7a4;
 }
+
 .checkbox:checked + span.checkboxTick:before {
     content: '\2714';
     position: absolute;
     top: -2px;
     left: 3px;
 }
+
 .checkboxText {
     padding: 0 10px;
 }
