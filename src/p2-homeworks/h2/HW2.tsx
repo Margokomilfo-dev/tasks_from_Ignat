@@ -32,7 +32,6 @@ export const filterAffairs = (affairs: Array<AffairType>, filter: FilterType): A
 
 export const deleteAffair = (affairs: Array<AffairType>, _id: number): Array<AffairType> => affairs.filter(a => a._id !== _id)
 
-
 //==============================================================================================================
 function HW2() {
 

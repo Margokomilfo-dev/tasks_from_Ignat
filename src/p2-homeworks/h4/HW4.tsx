@@ -34,8 +34,8 @@ function HW4() {
                 />
 
                 <SuperButton
-                    red // пропсу с булевым значением не обязательно указывать true
-                    onClick={showAlert}
+                    //red // пропсу с булевым значением не обязательно указывать true
+                    onClick={showAlert} className={s.button}
                 >
                     click me :) {/*// название кнопки попадёт в children*/}
                 </SuperButton>

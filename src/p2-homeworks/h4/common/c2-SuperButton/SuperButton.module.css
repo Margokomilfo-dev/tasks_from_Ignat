@@ -1,10 +1,34 @@
-.default {
- border: 1px solid red
+.button {
+    box-shadow: inset 0 0 0 0 #ffffff;
+    background: linear-gradient(to bottom, #feffe0 5%, #dcf5f4 100%);
+    background-color: #feffe0;
+    border-radius: 9px;
+    border: 1px solid #1a97ad;
+    display: inline-block;
+    cursor: pointer;
+    color: #027171;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 7px 7px;
+    text-decoration: none;
+    text-shadow: 0 -2px 0 #e0e0e0;
+    outline: none;
 }
 
-.red {
-    background: red;
+.button:hover {
+    background: linear-gradient(to bottom, #dcf5f4 5%, #feffe0 100%);
+    background-color: #dcf5f4;
 }
-.buttonComp {
-    margin-bottom: 10px;
+.button:active {
+    position: relative;
+    top: 1px;
+    outline: none;
+}
+
+
+.redButton {
+    width: 70px;
+    height: 44px;
+    border-radius: 0;
 }

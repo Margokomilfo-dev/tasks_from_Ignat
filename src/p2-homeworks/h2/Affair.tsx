@@ -1,6 +1,7 @@
 import React from "react";
 import {AffairType} from "./HW2";
-import s from './Affairs.module.css'
+import styles from './Affairs.module.css'
+import SuperButton from "../h4/common/c2-SuperButton/SuperButton";
 
 type AffairPropsType = {
     affair: AffairType
@@ -12,15 +13,21 @@ function Affair(props: AffairPropsType) {
     const deleteCallback = (id: number) => {
         props.deleteAffairCallback(props.affair._id)
     };
-
+    let style = {
+        borderRadius: '0',
+        width: '30px',
+        border: '1px solid yellowgreen',
+        background: 'none'
+    }
     return (
-        <div className={s.affairs}>
-            <div className={s.affairBlock}>
-                <div className={s.affairId}>{props.affair._id}</div>
-                <div className={s.affairName}> {props.affair.name} </div>
-                <div className={s.affairPriority}>{props.affair.priority}</div>
+        <div className={styles.affairs}>
+            <div className={styles.affairBlock}>
+                <div className={styles.affairId}>{props.affair._id}</div>
+                <div className={styles.affairName}> {props.affair.name} </div>
+                <div className={styles.affairPriority}>{props.affair.priority}</div>
 
-                <button onClick={() => deleteCallback(props.affair._id)}>X</button>
+                <SuperButton onClick={() => deleteCallback(props.affair._id)}
+                             style={style}>X</SuperButton>
             </div>
 
         </div>

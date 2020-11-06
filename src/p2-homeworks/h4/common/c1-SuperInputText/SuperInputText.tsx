@@ -1,7 +1,5 @@
 import React, {ChangeEvent, DetailedHTMLProps, InputHTMLAttributes, KeyboardEvent} from "react";
-// import s from "./SuperInputText.module.css";
-import s from '../../../../p1-main/m1-ui/u1-app/myApp.module.css'
-
+import s from "./SuperInputText.module.css";
 // тип пропсов обычного инпута
 type DefaultInputPropsType = DetailedHTMLProps<InputHTMLAttributes<HTMLInputElement>, HTMLInputElement>;
 // здесь мы говорим что у нашего инпута будут такие же пропсы как у обычного инпута
@@ -48,7 +46,7 @@ const SuperInputText: React.FC<SuperInputTextPropsType> = (
     }
 
     const finalSpanClassName = `${s.error} ${spanClassName ? spanClassName : ""}`;
-    const finalInputClassName = `${error ? s.errorInput : s.input}`;
+    const finalInputClassName = `${error ? s.errorInput : s.input}  ${className ? className : ""}`;
 
     return (
 

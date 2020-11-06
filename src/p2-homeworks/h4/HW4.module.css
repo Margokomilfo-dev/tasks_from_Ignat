@@ -10,3 +10,7 @@
     flex-direction: column;
     align-items: center;
 }
+.button {
+    width: 120px;
+    margin-bottom: 10px;
+}

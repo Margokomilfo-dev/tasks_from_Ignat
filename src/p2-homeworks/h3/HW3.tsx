@@ -23,7 +23,7 @@ function HW3() {
         <div className={style.hw}>
             <span className={style.hwTitle}>Homework №3</span>
             <div>
-                <GreetingContainer users={users} addUserCallback={addUserCallback}/>
+                <GreetingContainer users={users} addUserCallback={addUserCallback} />
                 <AlternativeGreeting users={users}/>
             </div>
         </div>
