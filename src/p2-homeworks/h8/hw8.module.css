@@ -1,0 +1,12 @@
+.finalPeople {
+    width: 120px;
+}
+.people {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px double lightgrey;
+}
+.button {
+    width: 100px;
+    margin: 15px 5px;
+}
