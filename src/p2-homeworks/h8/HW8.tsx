@@ -34,7 +34,7 @@ function HW8() {
             <div className={s.hwTitle}>
                 Homework №8
             </div>
-            {/*should work (должно работать)*/}
+
             <div className={style.finalPeople}>
                 {finalPeople}
             </div>
