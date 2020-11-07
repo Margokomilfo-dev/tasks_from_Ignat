@@ -1,12 +1,21 @@
 .finalPeople {
-    width: 120px;
+    width: 200px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px double lightpink;
+    color: red;
+    font-weight: 600;
+    padding: 0 10px;
 }
 .people {
     display: flex;
     justify-content: space-between;
     border-bottom: 1px double lightgrey;
+    padding: 0 5px;
 }
 .button {
-    width: 100px;
+    width: 140px;
     margin: 15px 5px;
 }

@@ -1,6 +1,6 @@
-import React from "react";
-import Message from "./Message";
-import AlternativeMessage from "./AlternativeMessage";
+import React from "react"
+import Message from "./Message"
+import AlternativeMessage from "./AlternativeMessage"
 import style from './../../p1-main/m1-ui/u1-app/myApp.module.css'
 
 
@@ -70,4 +70,4 @@ function HW1() {
     );
 }
 
-export default HW1;
+export default HW1

@@ -1,5 +1,5 @@
-import React, {useState} from "react";
-import Affairs from "./Affairs";
+import React, {useState} from "react"
+import Affairs from "./Affairs"
 import style from './../../p1-main/m1-ui/u1-app/myApp.module.css'
 
 // types
@@ -53,4 +53,4 @@ function HW2() {
     );
 }
 
-export default HW2;
+export default HW2

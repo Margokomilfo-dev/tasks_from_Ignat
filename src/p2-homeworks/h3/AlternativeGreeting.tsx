@@ -1,5 +1,5 @@
-import React from "react";
-import {UserType} from "./HW3";
+import React from "react"
+import {UserType} from "./HW3"
 import s from './Greeting.module.css'
 
 type AlternativeGreetingPropsType = {
@@ -16,4 +16,4 @@ const AlternativeGreeting: React.FC<AlternativeGreetingPropsType> = ({users}) =>
     );
 }
 
-export default AlternativeGreeting;
+export default AlternativeGreeting

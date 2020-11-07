@@ -1,7 +1,7 @@
-import React, {useState} from "react";
-import SuperSelect from "./common/c5-SuperSelect/SuperSelect";
-import SuperRadio from "./common/c6-SuperRadio/SuperRadio";
-import s from "../../p1-main/m1-ui/u1-app/myApp.module.css";
+import React, {useState} from "react"
+import SuperSelect from "./common/c5-SuperSelect/SuperSelect"
+import SuperRadio from "./common/c6-SuperRadio/SuperRadio"
+import s from "../../p1-main/m1-ui/u1-app/myApp.module.css"
 
 const arr: string[] = ["x", "y", "z"];
 
@@ -30,13 +30,8 @@ function HW7() {
                 />
             </div>
 
-
-            {/*для личного творчества, могу проверить*/}
-            {/*<AlternativeSuperSelect/>*/}
-            {/*<AlternativeSuperRadio/>*/}
-
         </div>
     );
 }
 
-export default HW7;
+export default HW7

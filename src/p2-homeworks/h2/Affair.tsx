@@ -1,7 +1,7 @@
-import React from "react";
-import {AffairType} from "./HW2";
+import React from "react"
+import {AffairType} from "./HW2"
 import styles from './Affairs.module.css'
-import SuperButton from "../h4/common/c2-SuperButton/SuperButton";
+import SuperButton from "../h4/common/c2-SuperButton/SuperButton"
 
 type AffairPropsType = {
     affair: AffairType
@@ -34,4 +34,4 @@ function Affair(props: AffairPropsType) {
     );
 }
 
-export default Affair;
+export default Affair

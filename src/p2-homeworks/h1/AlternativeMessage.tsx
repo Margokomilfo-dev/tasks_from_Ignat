@@ -1,6 +1,6 @@
-import React from "react";
+import React from "react"
 import s from './Message.module.css'
-import Message, {MessageProsType} from "./Message";
+import Message, {MessageProsType} from "./Message"
 
 function AlternativeMessage(props: MessageProsType) {
     return (
@@ -13,4 +13,4 @@ function AlternativeMessage(props: MessageProsType) {
     )
 }
 
-export default AlternativeMessage;
+export default AlternativeMessage

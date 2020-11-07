@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react"
 import {NavLink} from "react-router-dom"
 import s from './Header.module.css'
 
@@ -15,6 +15,8 @@ function Header() {
                     <NavLink to={'/hw3'} className={s.navLink} activeClassName={s.active}> Homework 3</NavLink>
                     <NavLink to={'/hw4'} className={s.navLink} activeClassName={s.active}> Homework 4</NavLink>
                     <NavLink to={'/hw6'} className={s.navLink} activeClassName={s.active}> Homework 6</NavLink>
+                    <NavLink to={'/hw7'} className={s.navLink} activeClassName={s.active}> Homework 7</NavLink>
+                    <NavLink to={'/hw8'} className={s.navLink} activeClassName={s.active}> Homework 8</NavLink>
                 </div>
 
             </div>

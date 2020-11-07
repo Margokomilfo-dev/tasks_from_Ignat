@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react"
 import s from './Message.module.css'
 
 
@@ -25,4 +25,4 @@ function Message(props: MessageProsType) {
     );
 }
 
-export default Message;
+export default Message

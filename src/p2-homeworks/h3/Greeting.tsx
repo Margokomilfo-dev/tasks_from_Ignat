@@ -1,7 +1,7 @@
-import React, {ChangeEvent, KeyboardEvent} from "react";
+import React, {ChangeEvent, KeyboardEvent} from "react"
 import styles from "./Greeting.module.css"
-import SuperButton from "../h4/common/c2-SuperButton/SuperButton";
-import SuperInputText from "../h4/common/c1-SuperInputText/SuperInputText";
+import SuperButton from "../h4/common/c2-SuperButton/SuperButton"
+import SuperInputText from "../h4/common/c1-SuperInputText/SuperInputText"
 
 type GreetingPropsType = {
     name: string
@@ -38,4 +38,4 @@ const Greeting: React.FC<GreetingPropsType> = ({name, setNameCallback, addUser, 
     );
 }
 
-export default Greeting;
+export default Greeting

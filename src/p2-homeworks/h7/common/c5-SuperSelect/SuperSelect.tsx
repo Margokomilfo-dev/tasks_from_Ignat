@@ -33,4 +33,4 @@ const SuperSelect: React.FC<SuperSelectPropsType> = (
     )
 }
 
-export default SuperSelect;
+export default SuperSelect
