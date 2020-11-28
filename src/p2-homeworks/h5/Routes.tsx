@@ -11,6 +11,7 @@ import HW4 from "../h4/HW4";
 import HW6 from "../h6/HW6"
 import HW7 from "../h7/HW7"
 import HW8 from "../h8/HW8"
+import HW9 from "../h9/HW9"
 
 export const PATH = {
     PRE_JUNIOR: "/pre-junior",
@@ -24,6 +25,7 @@ export const PATH = {
     HW6: "/hw6",
     HW7: "/hw7",
     HW8: "/hw8",
+    HW9: "/hw9",
 }
 
 function Routes() {
@@ -43,6 +45,7 @@ function Routes() {
                 <Route path={"/hw6"} exact render={() => <HW6/>}/>
                 <Route path={"/hw7"} exact render={() => <HW7/>}/>
                 <Route path={"/hw8"} exact render={() => <HW8/>}/>
+                <Route path={"/hw9"} exact render={() => <HW9/>}/>
                 <Route path={'/PRE_JUNIOR'} exact render={() => <PreJunior/>}/>
                 {/*у этого роута нет пути, он отрисуется если пользователь захочет попасть на несуществующую страницу*/}
                 <Route render={() => <Error404/>}/>

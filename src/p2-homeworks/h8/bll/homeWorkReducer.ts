@@ -1,6 +1,6 @@
 import {UserType} from "../HW8"
 
-    const SORT ='SORT'
+const SORT ='SORT'
 
 export const homeWorkReducer = (state:  Array<UserType>, action: any): any => {
     switch (action.type) {
@@ -34,7 +34,6 @@ export const homeWorkReducer = (state:  Array<UserType>, action: any): any => {
                     return state
                 }
             }
-
         case "CHECK_18": {
             return [...state.filter(u => u.age > action.payload)]
         }

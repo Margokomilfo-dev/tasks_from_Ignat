@@ -1,0 +1,52 @@
+.container {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+.clockWrapper {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    color: #ff00c8;
+    font-size: 100px;
+}
+
+.clockWrapper span {
+    font-size: 100px;
+    padding: 0 15px;
+    color: black;
+}
+
+.clock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.clock .text {
+    font-size: 15px;
+    color: #ff00c8;
+    margin-top: -20px;
+}
+.forDate {
+    position: relative;
+}
+.mySpan {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    right: 23px;
+    padding: 5px 10px;
+    border: 1px solid black;
+    color: white;
+    font-weight: 700;
+    background-color: black;
+}
+.buttons {
+    margin: 20px 0;
+}
+.button {
+    width: 100px;
+}
