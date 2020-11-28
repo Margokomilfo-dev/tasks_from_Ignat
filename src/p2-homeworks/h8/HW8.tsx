@@ -26,10 +26,10 @@ function HW8() {
         </div>
     ))
 
-    const sortAgeUp = () => setPeople(homeWorkReducer(initialPeople, {type: "SORT_UP"}))
-    const sortAgeDown = () => setPeople(homeWorkReducer(initialPeople, {type: "SORT_DOWN"}))
-    const sortNameUp = () => setPeople(homeWorkReducer(initialPeople, {type: "SORT_NAME_UP"}))
-    const sortNameDown = () => setPeople(homeWorkReducer(initialPeople, {type: "SORT_NAME_DOWN"}))
+    const sortAgeUp = () => setPeople(homeWorkReducer(initialPeople, {type: "SORT", payload: "up"}))
+    const sortAgeDown = () => setPeople(homeWorkReducer(initialPeople, {type: "SORT",payload: "down"}))
+    const sortNameUp = () => setPeople(homeWorkReducer(initialPeople, {type: "SORT", payload: "name-up"}))
+    const sortNameDown = () => setPeople(homeWorkReducer(initialPeople, {type: "SORT", payload: "name-down"}))
     const check18 = () => setPeople(homeWorkReducer(initialPeople, {type: "CHECK_18", payload: 18}))
 
     return (
