@@ -6,7 +6,7 @@ function HW9() {
     return (
         <div className={s.hw}>
             <div className={s.hwTitle}>
-                Homework №6
+                Homework №9
             </div>
             {/*should work (должно работать)*/}
             <Clock/>

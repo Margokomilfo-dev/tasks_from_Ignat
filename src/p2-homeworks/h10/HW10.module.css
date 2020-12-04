@@ -1,0 +1,13 @@
+.wrapper {
+    height: 150px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:1px solid rgba(20,158,96,.3);
+    box-shadow: 2px -2px 12px -1px rgba(20,158,96,.5);
+}
+.button {
+    margin: 0 auto;
+    padding: 10px 40px;
+}
